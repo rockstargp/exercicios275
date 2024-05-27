@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Pizza</title>
+    <link rel="stylesheet" href="ex4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pedido de Pizza</h1>
+        <form id="pizzaForm">
+            <label for="sabor1">Sabor 1:</label>
+            <input type="text" id="sabor1" name="sabor1" required>
+            <label for="sabor2">Sabor 2:</label>
+            <input type="text" id="sabor2" name="sabor2" required>
+            <label for="sabor3">Sabor 3:</label>
+            <input type="text" id="sabor3" name="sabor3" required>
+            <label for="sabor4">Sabor 4:</label>
+            <input type="text" id="sabor4" name="sabor4" required>
+            <label for="refrigerantes">Quantidade de Refrigerantes:</label>
+            <input type="number" id="refrigerantes" name="refrigerantes" required>
+            <button type="submit">Calcular Pedido</button>
+        </form>
+        <div id="resultados">
+            <h2>Pedido:</h2>
+            <p id="sabores"></p>
+            <p id="valorTotal"></p>
+        </div>
+    </div>
+    <script src="ex4.js"></script>
+</body>
+</html>

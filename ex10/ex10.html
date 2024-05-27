@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta de Vendas</title>
+    <link rel="stylesheet" href="ex10.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meta de Vendas</h1>
+        <form id="metaForm">
+            <label for="valorVendido">Valor Vendido (R$):</label>
+            <input type="number" id="valorVendido" name="valorVendido" step="0.01" required>
+            <label for="meta">Meta (R$):</label>
+            <input type="number" id="meta" name="meta" step="0.01" required>
+            <label for="metaMinima">Meta Mínima (R$):</label>
+            <input type="number" id="metaMinima" name="metaMinima" step="0.01" required>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado">
+            <h2>Resultado:</h2>
+            <p id="atingiuMeta"></p>
+            <p id="percentualMeta"></p>
+            <p id="percentualMetaMinima"></p>
+        </div>
+    </div>
+    <script src="ex10.js"></script>
+</body>
+</html>

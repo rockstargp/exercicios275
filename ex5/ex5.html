@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade das Pessoas</title>
+    <link rel="stylesheet" href="ex5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Idade das Pessoas</h1>
+        <form id="idadeForm">
+            <div class="pessoa">
+                <label for="nome1">Nome da Pessoa 1:</label>
+                <input type="text" id="nome1" name="nome1" required>
+                <label for="ano1">Ano de Nascimento da Pessoa 1:</label>
+                <input type="number" id="ano1" name="ano1" required>
+            </div>
+            <div class="pessoa">
+                <label for="nome2">Nome da Pessoa 2:</label>
+                <input type="text" id="nome2" name="nome2" required>
+                <label for="ano2">Ano de Nascimento da Pessoa 2:</label>
+                <input type="number" id="ano2" name="ano2" required>
+            </div>
+            <div class="pessoa">
+                <label for="nome3">Nome da Pessoa 3:</label>
+                <input type="text" id="nome3" name="nome3" required>
+                <label for="ano3">Ano de Nascimento da Pessoa 3:</label>
+                <input type="number" id="ano3" name="ano3" required>
+            </div>
+            <button type="submit">Calcular Idades</button>
+        </form>
+        <div id="resultados">
+            <h2>Resultados:</h2>
+            <p id="primeiraPessoa"></p>
+            <p id="segundaPessoa"></p>
+            <p id="terceiraPessoa"></p>
+        </div>
+    </div>
+    <script src="ex5.js"></script>
+</body>
+</html>
